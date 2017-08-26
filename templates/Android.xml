@@ -1,0 +1,14 @@
+<templateSet group="Android">
+  <template name="launchIntent" value="public static Intent createLaunchIntent(android.content.Context context, $args$) {&#10;    android.content.Intent launchIntent = new Intent(context, $ACTIVITY$.class);&#10;    $addArgs$&#10;    return launchIntent;&#10;}" description="Create method to return launchIntent for activity" toReformat="false" toShortenFQNames="true">
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTIVITY" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="addArgs" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ViewConstructors" value="public $class$(android.content.Context context) {&#10;    super(context);&#10;    initView(context, null);&#10;}&#10;&#10;public $class$(Context context, android.util.AttributeSet attrs) {&#10;    super(context, attrs);&#10;    initView(context, attrs);&#10;}&#10;&#10;public $class$(Context context, AttributeSet attrs, int defStyle) {&#10;    super(context, attrs, defStyle);&#10;    initView(context, attrs);&#10;}&#10;&#10;@TargetApi(Build.VERSION_CODES.LOLLIPOP)&#10;public $class$(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {&#10;    super(context, attrs, defStyleAttr, defStyleRes);&#10;    initView(context, attrs);&#10;}&#10;&#10;public void initView(Context context, AttributeSet attrs) {&#10;    $cursor$&#10;}" description="Adds generic view constructors" toReformat="true" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="false" />
+  </template>
+</templateSet>

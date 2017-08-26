@@ -1,0 +1,5 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="PROXY_HOST" value="210.245.31.15" />
+  </component>
+</application>

@@ -1,0 +1,6 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://pmd.sf.net/ruleset/1.0.0" location="$USER_HOME$/Library/Caches/AndroidStudioPreview2.0/extResources/8a117d51_ruleset_xml_schema.xsd" />
+    <resource url="http://pmd.sf.net/ruleset_xml_schema.xsd" location="$USER_HOME$/Library/Caches/AndroidStudioPreview2.0/extResources/8a117d51_ruleset_xml_schema.xsd" />
+  </component>
+</application>
