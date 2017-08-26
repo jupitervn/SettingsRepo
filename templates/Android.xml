@@ -10,6 +10,5 @@
   <template name="ViewConstructors" value="public $class$(android.content.Context context) {&#10;    super(context);&#10;    initView(context, null);&#10;}&#10;&#10;public $class$(Context context, android.util.AttributeSet attrs) {&#10;    super(context, attrs);&#10;    initView(context, attrs);&#10;}&#10;&#10;public $class$(Context context, AttributeSet attrs, int defStyle) {&#10;    super(context, attrs, defStyle);&#10;    initView(context, attrs);&#10;}&#10;&#10;@TargetApi(Build.VERSION_CODES.LOLLIPOP)&#10;public $class$(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {&#10;    super(context, attrs, defStyleAttr, defStyleRes);&#10;    initView(context, attrs);&#10;}&#10;&#10;public void initView(Context context, AttributeSet attrs) {&#10;    $cursor$&#10;}" description="Adds generic view constructors" toReformat="true" toShortenFQNames="true">
     <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="className()" defaultValue="" alwaysStopAt="false" />
-    <context />
   </template>
 </templateSet>
